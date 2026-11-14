@@ -1,0 +1,75 @@
+quests:
+- id: quest_compassion
+  title: L'Éveil de la Compassion
+  virtue: Compassion
+  summary: Répondez à l'appel de Lord British, retrouvez la Rune de Compassion à Britain et méditez au Sanctuaire.
+  is_main_quest: true
+  steps:
+  - id: step_1
+    title: Audience auprès du Roi
+    description: Parlez à Lord British au château et demandez-lui la QUÊTE ('QUES').
+    npc_name: Lord British
+    dialogue_bank: lcb.tlk
+    keyword: QUES
+    required_item_label: ''
+    target_map_id: 1
+    target_x: 15
+    target_y: 7
+  - id: step_2
+    title: Consulter Iolo le Barde
+    description: Rendez-vous à Britain et interrogez Iolo sur la RUNE ('RUNE').
+    npc_name: Iolo
+    dialogue_bank: britain.tlk
+    keyword: RUNE
+    required_item_label: ''
+    target_map_id: 6
+    target_x: 8
+    target_y: 23
+  - id: step_3
+    title: Découvrir la Rune avec Aria
+    description: Parlez à Aria près du feu de camp ('RUNE') et fouillez le sol en (25,24).
+    npc_name: Aria
+    dialogue_bank: britain.tlk
+    keyword: RUNE
+    required_item_label: compassionrune
+    target_map_id: 6
+    target_x: 25
+    target_y: 24
+  - id: step_4
+    title: Méditer au Sanctuaire
+    description: Apprenez le mantra 'MU' auprès de Hawkwind ('MANT') puis méditez au Sanctuaire de la Compassion.
+    npc_name: Hawkwind
+    dialogue_bank: lcb.tlk
+    keyword: MANT
+    required_item_label: ''
+    target_map_id: 26
+    target_x: 5
+    target_y: 5
+  reward: Élévation partielle en Compassion et recrutement d'Iolo.
+- id: quest_deceit
+  title: La Pierre Bleue de Deceit
+  virtue: Honesty
+  summary: Suivez les rumeurs des érudits et explorez les profondeurs du donjon Deceit.
+  is_main_quest: false
+  steps:
+  - id: step_d1
+    title: Indice de la Chroniqueuse
+    description: Interrogez Eleonore au château sur DECEIT ('DECE').
+    npc_name: Eleonore
+    dialogue_bank: lcb.tlk
+    keyword: DECE
+    required_item_label: ''
+    target_map_id: 1
+    target_x: 18
+    target_y: 18
+  - id: step_d2
+    title: Atteindre l'autel de Deceit
+    description: Descendez jusqu'au niveau 8 de Deceit pour récupérer la Pierre Bleue.
+    npc_name: ''
+    dialogue_bank: ''
+    keyword: ''
+    required_item_label: bluestone
+    target_map_id: 17
+    target_x: 6
+    target_y: 6
+  reward: Obtention de la Pierre Bleue.

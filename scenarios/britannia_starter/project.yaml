@@ -1,0 +1,54 @@
+metadata:
+  title: The Quest of the Avatar's Chalice
+  module_name: Britannia-Starter
+  author: Ultima IV Maker
+  version: '1.0'
+  about: A complete starter adventure featuring Lord British, Britain, Deceit, and the Shrine.
+  rules: Ultima-IV
+shrines:
+- virtue: Honesty
+  mantra: ahm
+  map_id: 25
+- virtue: Compassion
+  mantra: mu
+  map_id: 26
+- virtue: Valor
+  mantra: ra
+  map_id: 27
+- virtue: Justice
+  mantra: beh
+  map_id: 28
+- virtue: Sacrifice
+  mantra: cah
+  map_id: 29
+- virtue: Honor
+  mantra: summ
+  map_id: 30
+- virtue: Spirituality
+  mantra: om
+  map_id: 31
+- virtue: Humility
+  mantra: lum
+  map_id: 32
+tavern_rumors:
+- topic: black stone
+  price: 20
+  text: They say the Black Stone slumbers near a moongate on new moons...
+  city_name: Britain
+- topic: white stone
+  price: 15
+  text: The White Stone rests high within the Serpent's Spine to the northwest.
+  city_name: Britain
+- topic: bell
+  price: 25
+  text: The Bell of Courage sank near the southern isle (176, 208).
+  city_name: Britain
+map_files:
+- maps/00_britannia.yaml
+- maps/01_castle_britannia.yaml
+- maps/06_britain.yaml
+- maps/17_dungeon_deceit.yaml
+- maps/26_shrine_of_compassion.yaml
+dialogue_banks:
+- britain.tlk
+- lcb.tlk

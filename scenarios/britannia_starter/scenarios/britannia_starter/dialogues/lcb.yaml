@@ -1,0 +1,97 @@
+bank_name: lcb.tlk
+dialogues:
+- id: 1
+  bank_name: lcb.tlk
+  name: Lord British
+  pronoun: He
+  look: le roi bienveillant.
+  job: Je guide les heros vers l'Avatar.
+  health: Fort et serein.
+  keyword1: QUES
+  response1: Trouve la Rune a Britain et son Mantra.
+  keyword2: ABYS
+  response2: Il faut les Trois Cles pour l'Abysse.
+  question_trigger: 5
+  question: Prets a suivre les Vertus ?
+  yes_response: Parle a Iolo a Britain !
+  no_response: Reviens quand tu seras pret.
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 2
+  bank_name: lcb.tlk
+  name: Hawkwind
+  pronoun: He
+  look: un voyant vetu de robes etoilees.
+  job: Je sonde ton ame sur la voie des huit Vertus.
+  health: Mon esprit est clair.
+  keyword1: MANT
+  response1: Le Mantra de la Compassion est MU. Medite au Sanctuaire a l'est.
+  keyword2: RUNE
+  response2: Cherche la Rune pres d'un feu de camp a Britain.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 3
+  bank_name: lcb.tlk
+  name: Pendragon
+  pronoun: He
+  look: un guerisseur royal en tunique blanche.
+  job: Je soigne les blesses et les empoisonnes.
+  health: Grace aux cieux, je vais bien.
+  keyword1: BLOO
+  response1: Donner un peu de ton sang prouve ton sens du Sacrifice.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 4
+  bank_name: lcb.tlk
+  name: Garde Royal
+  pronoun: He
+  look: un garde en armure etincelante.
+  job: Je protege les portes du chateau jour et nuit.
+  health: Toujours vigilant !
+  keyword1: BRIT
+  response1: La cite de Britain se trouve juste a l'ouest des douves.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 3
+  question: Es-tu un guerrier invincible ?
+  yes_response: La vanite mene a la chute...
+  no_response: La modestie sied aux braves.
+  affects_humility: true
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 5
+  bank_name: lcb.tlk
+  name: Eleonore
+  pronoun: She
+  look: une chroniqueuse tenant un parchemin.
+  job: Je consigne les hauts faits de Britannia.
+  health: Un peu lasse d'ecrire, mais heureuse.
+  keyword1: DECE
+  response1: Le donjon Deceit abrite la Pierre Bleue sur une ile a l'est.
+  keyword2: COVE
+  response2: Le Livre de Verite repose pres du village cache de Cove.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''

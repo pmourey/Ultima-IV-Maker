@@ -1,0 +1,116 @@
+bank_name: britain.tlk
+dialogues:
+- id: 1
+  bank_name: britain.tlk
+  name: Iolo
+  pronoun: He
+  look: a bard with his lute.
+  job: I sing ballads and craft fine bows.
+  health: In fine fettle!
+  keyword1: RUNE
+  response1: Aria watches the campfire to the southeast.
+  keyword2: JOIN
+  response2: Speak JOIN if thou wishest my company!
+  question_trigger: 5
+  question: Dost thou enjoy merry ballads?
+  yes_response: Then let us play a joyful tune!
+  no_response: Music yet soothes the weary soul.
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 2
+  bank_name: britain.tlk
+  name: Winston
+  pronoun: He
+  look: a sturdy smith covered in soot.
+  job: I forge blades and slings for travellers.
+  health: Strong as steel.
+  keyword1: SWOR
+  response1: A fine iron sword costs 300 gold pieces.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 3
+  bank_name: britain.tlk
+  name: Sam
+  pronoun: He
+  look: a smiling tavernkeeper wiping a tankard.
+  job: I pour ale and hear sailors' tales.
+  health: Never dry!
+  keyword1: RUMO
+  response1: Buy a drink and tip well to hear rare secrets.
+  keyword2: STON
+  response2: The Blue Stone lies on the 8th level of Deceit.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 4
+  bank_name: britain.tlk
+  name: Jude
+  pronoun: He
+  look: a poor beggar in tattered rags.
+  job: I survive by the compassion of passersby.
+  health: I am hungry, traveller...
+  keyword1: GIVE
+  response1: Use GIVE to spare a coin, noble heart.
+  keyword2: MANT
+  response2: The wise whisper that Compassion's mantra is MU.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 5
+  bank_name: britain.tlk
+  name: Aria
+  pronoun: She
+  look: a scholar gazing into the flames.
+  job: I tend the ancient sacred fire of Britain.
+  health: At peace.
+  keyword1: RUNE
+  response1: The Rune of Compassion lies buried by this fire (25,24)!
+  keyword2: MANT
+  response2: Seek the Shrine to the east. Its mantra is MU.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 6
+  bank_name: britain.tlk
+  name: Marcus
+  pronoun: He
+  look: a watchful guard at the west gate.
+  job: I guard the road toward Castle Britannia.
+  health: Well enough.
+  keyword1: CAST
+  response1: Exit west and walk east to reach Lord British.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''

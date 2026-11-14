@@ -1,0 +1,97 @@
+bank_name: lcb.tlk
+dialogues:
+- id: 1
+  bank_name: lcb.tlk
+  name: Lord British
+  pronoun: He
+  look: a benevolent king.
+  job: I guide heroes toward the Avatar.
+  health: Strong and serene.
+  keyword1: QUES
+  response1: Find the Rune in Britain and its Mantra.
+  keyword2: ABYS
+  response2: Three Keys unlock the Abyss.
+  question_trigger: 5
+  question: Wilt thou follow the Virtues?
+  yes_response: Seek Iolo in Britain!
+  no_response: Return when ready.
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 2
+  bank_name: lcb.tlk
+  name: Hawkwind
+  pronoun: He
+  look: a seer clad in starry robes.
+  job: I peer into thy soul upon the path of Virtue.
+  health: My mind is clear.
+  keyword1: MANT
+  response1: The Mantra of Compassion is MU. Meditate east.
+  keyword2: RUNE
+  response2: Seek the Rune beside a campfire in Britain.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 3
+  bank_name: lcb.tlk
+  name: Pendragon
+  pronoun: He
+  look: a royal healer in white robes.
+  job: I mend the wounded and cure the poisoned.
+  health: By the heavens, I am well.
+  keyword1: BLOO
+  response1: Giving of thy blood proves thy Sacrifice.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 4
+  bank_name: lcb.tlk
+  name: Royal Guard
+  pronoun: He
+  look: a guard in gleaming plate.
+  job: I watch the castle gates day and night.
+  health: Ever vigilant!
+  keyword1: BRIT
+  response1: The towne of Britain lies just west of the moat.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 3
+  question: Art thou an invincible warrior?
+  yes_response: Pride leadeth to a fall...
+  no_response: Humility befits the brave.
+  affects_humility: true
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 5
+  bank_name: lcb.tlk
+  name: Eleanor
+  pronoun: She
+  look: a chronicler holding a scroll.
+  job: I record the noble deeds of Britannia.
+  health: Weary from writing, yet glad.
+  keyword1: DECE
+  response1: Dungeon Deceit hides the Blue Stone on an eastern isle.
+  keyword2: COVE
+  response2: The Book of Truth rests near the hidden towne of Cove.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''

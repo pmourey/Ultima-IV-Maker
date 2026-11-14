@@ -1,0 +1,116 @@
+bank_name: britain.tlk
+dialogues:
+- id: 1
+  bank_name: britain.tlk
+  name: Iolo
+  pronoun: He
+  look: un barde avec son luth.
+  job: Je chante et fabrique des arcs.
+  health: En pleine forme !
+  keyword1: RUNE
+  response1: Aria veille au feu de camp au sud-est.
+  keyword2: JOIN
+  response2: Tape JOIN pour m'enroler !
+  question_trigger: 5
+  question: Aimes-tu les ballades ?
+  yes_response: Jouons donc un air joyeux !
+  no_response: La musique adoucit les moeurs.
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 2
+  bank_name: britain.tlk
+  name: Winston
+  pronoun: He
+  look: un forgeron robuste couvert de suie.
+  job: Je forge epees et dagues pour les voyageurs.
+  health: Solide comme l'acier.
+  keyword1: SWOR
+  response1: Une bonne lame coute 300 pieces d'or.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 3
+  bank_name: britain.tlk
+  name: Sam
+  pronoun: He
+  look: un tavernier souriant essuyant une chope.
+  job: Je sers a boire et ecoute les rumeurs des marins.
+  health: Jamais a sec !
+  keyword1: RUMO
+  response1: Demande une biere et paie un pourboire pour connaitre les secrets.
+  keyword2: STON
+  response2: La Pierre Bleue git au 8e niveau de Deceit.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 4
+  bank_name: britain.tlk
+  name: Jude
+  pronoun: He
+  look: un pauvre mendiant en haillons.
+  job: Je survis grace a la compassion des passants.
+  health: J'ai faim, voyageur...
+  keyword1: GIVE
+  response1: Tape GIVE pour me faire une aumone, noble coeur.
+  keyword2: MANT
+  response2: Les sages murmurent que le mantra de Compassion est MU.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 5
+  bank_name: britain.tlk
+  name: Aria
+  pronoun: She
+  look: une erudite contemplant les flammes.
+  job: Je veille sur l'ancien feu sacre de Britain.
+  health: En paix.
+  keyword1: RUNE
+  response1: La Rune de Compassion est enfouie juste a cote de ce feu de camp (25,24) !
+  keyword2: MANT
+  response2: Cherche l'ile de Deceit ou le Sanctuaire a l'est. Le mantra est MU.
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''
+- id: 6
+  bank_name: britain.tlk
+  name: Marcus
+  pronoun: He
+  look: un garde attentif a l'entree ouest.
+  job: Je surveille la route vers le chateau de Lord British.
+  health: Bien.
+  keyword1: CAST
+  response1: Sors a l'ouest et marche vers l'est pour entrer chez Lord British.
+  keyword2: 'A   '
+  response2: ''
+  question_trigger: 0
+  question: ''
+  yes_response: ''
+  no_response: ''
+  affects_humility: false
+  turn_away_prob: 0
+  extra_topics: []
+  notes: ''

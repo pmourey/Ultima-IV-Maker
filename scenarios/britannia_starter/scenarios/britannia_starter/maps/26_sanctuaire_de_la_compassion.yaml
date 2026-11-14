@@ -1,0 +1,82 @@
+id: 26
+name: Sanctuaire de la Compassion
+fname: shrine.con
+map_type: shrine
+width: 11
+height: 11
+levels: 1
+chunk_dim: 0
+border_behavior: fixed
+music: 3
+city_type: towne
+tlk_fname: ''
+shrine_virtue: Compassion
+shrine_mantra: mu
+portals: []
+moongates: []
+labels: []
+levels_grid:
+- - '0101010101010101010101'
+  - '0101010101010101010101'
+  - '0101040404040404040101'
+  - 0101043e3e3e3e3e040101
+  - 0101043e3e3e3e3e040101
+  - 0101043e3e3d3e3e040101
+  - 0101043e3e3e3e3e040101
+  - 0101043e3e3e3e3e040101
+  - '0101040404170404040101'
+  - '0101010101170101010101'
+  - '0101010101040101010101'
+con_starts:
+  creature_x:
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  creature_y:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  player_x:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 3
+  - 4
+  - 5
+  - 6
+  player_y:
+  - 8
+  - 8
+  - 8
+  - 8
+  - 9
+  - 9
+  - 9
+  - 9

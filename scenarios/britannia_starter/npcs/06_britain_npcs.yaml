@@ -1,0 +1,96 @@
+map_id: 6
+map_name: Britain
+tlk_fname: britain.tlk
+npcs:
+- slot_index: 0
+  name: Iolo
+  tile_id: 34
+  x: 8
+  y: 23
+  movement: wander
+  tlk_index: 1
+  role: companion
+  shop_config: null
+- slot_index: 1
+  name: Winston
+  tile_id: 82
+  x: 6
+  y: 5
+  movement: fixed
+  tlk_index: 2
+  role: weaponsvendor
+  shop_config:
+    shop_name: Britain Armoury
+    owner_name: Winston
+    price: 25
+    prices_list:
+    - 2
+    - 5
+    - 6
+    - 3
+    - 6
+    - 9
+    inventory:
+    - staff 20
+    - dagger 2
+    - sling 25
+    - sword 300
+    room_loc:
+    - 28
+    - 6
+    specialty_name: Traveller's Stew
+    specialty_price: 4
+    message: ''
+- slot_index: 2
+  name: Sam
+  tile_id: 82
+  x: 23
+  y: 5
+  movement: fixed
+  tlk_index: 3
+  role: tavernkeeper
+  shop_config:
+    shop_name: The Jolly Spirits
+    owner_name: Sam
+    price: 25
+    prices_list:
+    - 2
+    - 5
+    - 6
+    - 3
+    - 6
+    - 9
+    inventory: []
+    room_loc:
+    - 28
+    - 6
+    specialty_name: Lamb Chops
+    specialty_price: 4
+    message: ''
+- slot_index: 3
+  name: Jude
+  tile_id: 88
+  x: 17
+  y: 15
+  movement: wander
+  tlk_index: 4
+  role: none
+  shop_config: null
+- slot_index: 4
+  name: Aria
+  tile_id: 84
+  x: 24
+  y: 22
+  movement: fixed
+  tlk_index: 5
+  role: none
+  shop_config: null
+- slot_index: 5
+  name: Guard Marcus
+  tile_id: 80
+  x: 2
+  y: 15
+  movement: fixed
+  tlk_index: 6
+  role: none
+  shop_config: null

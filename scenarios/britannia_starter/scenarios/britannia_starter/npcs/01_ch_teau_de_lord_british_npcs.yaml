@@ -1,0 +1,66 @@
+map_id: 1
+map_name: Château de Lord British
+tlk_fname: lcb.tlk
+npcs:
+- slot_index: 0
+  name: Lord British
+  tile_id: 94
+  x: 15
+  y: 7
+  movement: fixed
+  tlk_index: 1
+  role: lordbritish
+  shop_config: null
+- slot_index: 1
+  name: Hawkwind le Voyant
+  tile_id: 32
+  x: 25
+  y: 10
+  movement: fixed
+  tlk_index: 2
+  role: hawkwind
+  shop_config: null
+- slot_index: 2
+  name: Pendragon
+  tile_id: 38
+  x: 6
+  y: 9
+  movement: fixed
+  tlk_index: 3
+  role: healer
+  shop_config:
+    shop_name: Hospice Royal
+    owner_name: Pendragon
+    price: 100
+    prices_list:
+    - 2
+    - 5
+    - 6
+    - 3
+    - 6
+    - 9
+    inventory: []
+    room_loc:
+    - 28
+    - 6
+    specialty_name: Ragoût du Voyageur
+    specialty_price: 4
+    message: ''
+- slot_index: 3
+  name: Garde Royal
+  tile_id: 80
+  x: 14
+  y: 27
+  movement: fixed
+  tlk_index: 4
+  role: none
+  shop_config: null
+- slot_index: 4
+  name: Eleonore la Chroniqueuse
+  tile_id: 82
+  x: 18
+  y: 18
+  movement: wander
+  tlk_index: 5
+  role: none
+  shop_config: null

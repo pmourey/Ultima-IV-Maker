@@ -1,0 +1,75 @@
+quests:
+- id: quest_compassion
+  title: Awakening of Compassion
+  virtue: Compassion
+  summary: Answer Lord British's call, recover the Rune of Compassion in Britain, and meditate at the Shrine.
+  is_main_quest: true
+  steps:
+  - id: step_1
+    title: Audience with the King
+    description: Speak with Lord British in Castle Britannia and ask about the QUEST ('QUES').
+    npc_name: Lord British
+    dialogue_bank: lcb.tlk
+    keyword: QUES
+    required_item_label: ''
+    target_map_id: 1
+    target_x: 15
+    target_y: 7
+  - id: step_2
+    title: Consult Iolo the Bard
+    description: Travel to Britain and ask Iolo about the RUNE ('RUNE').
+    npc_name: Iolo
+    dialogue_bank: britain.tlk
+    keyword: RUNE
+    required_item_label: ''
+    target_map_id: 6
+    target_x: 8
+    target_y: 23
+  - id: step_3
+    title: Uncover the Rune with Aria
+    description: Speak to Aria beside the campfire ('RUNE') and search the ground at (25,24).
+    npc_name: Aria
+    dialogue_bank: britain.tlk
+    keyword: RUNE
+    required_item_label: compassionrune
+    target_map_id: 6
+    target_x: 25
+    target_y: 24
+  - id: step_4
+    title: Meditate at the Shrine
+    description: Learn the mantra 'MU' from Hawkwind ('MANT') and meditate at the Shrine of Compassion.
+    npc_name: Hawkwind
+    dialogue_bank: lcb.tlk
+    keyword: MANT
+    required_item_label: ''
+    target_map_id: 26
+    target_x: 5
+    target_y: 5
+  reward: Partial elevation in Compassion and Iolo joining the party.
+- id: quest_deceit
+  title: The Blue Stone of Deceit
+  virtue: Honesty
+  summary: Follow the chronicler's clues and delve into the depths of Dungeon Deceit.
+  is_main_quest: false
+  steps:
+  - id: step_d1
+    title: Clue from the Chronicler
+    description: Ask Eleanor at the castle about DECEIT ('DECE').
+    npc_name: Eleanor
+    dialogue_bank: lcb.tlk
+    keyword: DECE
+    required_item_label: ''
+    target_map_id: 1
+    target_x: 18
+    target_y: 18
+  - id: step_d2
+    title: Reach the Altar of Deceit
+    description: Descend to level 8 of Deceit to claim the Blue Stone.
+    npc_name: ''
+    dialogue_bank: ''
+    keyword: ''
+    required_item_label: bluestone
+    target_map_id: 17
+    target_x: 6
+    target_y: 6
+  reward: Recovery of the Blue Stone.
